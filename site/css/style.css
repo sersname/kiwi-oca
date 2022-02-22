@@ -1,0 +1,199 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+  
+  }
+  *,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  :focus,:active{outline: none;}
+  a:focus,a:active{outline: none;}
+  
+  nav,footer,header,aside{display: block;}
+  
+  html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  input,button,textarea{font-family:inherit;}
+  
+  input::-ms-clear{display: none;}
+  button{cursor: pointer;}
+  button::-moz-focus-inner {padding:0;border:0;}
+  a, a:visited{text-decoration: none;}
+  a:hover{text-decoration: none;}
+  ul li{list-style: none;}
+  img{vertical-align: top;}
+  
+  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+  
+  img{vertical-align: top;}
+  
+  h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+ body{
+    background-color: rgba(172, 255, 47, 0.548);
+ }
+  .wrapper {
+      max-width: 1800px;
+      margin: 0 auto;
+     display: flex;
+}
+.sticy_position {
+    position: fixed;
+    top: 1px;
+    left: 5px;
+    background-color: rgba(172, 255, 47, 1);
+    width: 1600px;
+}
+.bosh {
+    display: inline-block;
+    justify-content: space-evenly;
+}
+.embilema {
+    font-weight: 400;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    margin: 30px;
+    display: inline-flex;
+
+}
+.til{
+    display: inline-flex;
+
+}
+  select{
+      background-color: blue;
+      padding: 12px;
+      font-size: 20px;
+      color: aliceblue;
+      border-radius: 30px;
+      margin-left: 30px;
+  }
+ .tel{
+ color: aliceblue;
+ font-size: 30px;
+ display: inline-flex;
+  }
+  .tel:hover{
+      color: blue;
+  }
+  .telefon{
+      display: inline-block;
+      margin-left: 40px;
+    
+  }
+  .cc{
+      animation-duration: 2s;
+      animation-name: kk;
+      animation-iteration-count: infinite;
+      animation-delay: 2s;
+      animation-direction: alternate;
+  }
+  @keyframes kk {
+      0% {color:rgba(172, 255, 47, 0.748); left: 0; top: 0;}
+      50%{color:rgba(17, 255, 47, 0.748) ; left: 12px; top: 12px;}
+      100%{color: rgba(0, 0, 0, 0.466); left: 0; top: 0;}
+  }
+  li{
+      display: inline-block;
+      margin: 20px;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      max-width: 1000;
+      text-align: center;
+      padding-right: 20px;
+  }
+  .tos{
+      border-bottom: 1px solid black;
+  }
+  .mail{
+      display: inline-flex;
+      font-size: 30px;
+    margin-left: 20px;
+    color: azure;
+  }
+  .mail:hover{
+color: blue;
+  }
+  .div{
+  height: 600px;
+background: url(../img/fon.jpg) center/cover no-repeat;
+margin-top: 175px;
+  }
+  .rang{
+    height: 600px;
+    background-color: rgba(23, , 200, 0.5);
+    width: 100%;
+  }
+  .menu{
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+
+  .tortburchak{
+  justify-content: space-between;
+  }
+  .bir{
+    border: 1px solid black;
+    height: 250px;
+    width: 303px;
+    background-color: grey;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 45px;
+    box-shadow: 0px 0px 36px gray;
+    color: aliceblue;
+  }
+  .ikki {
+    border: 1px solid black;
+    height: 250px;
+    width: 303px;
+    background-color: grey;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 45px;
+    box-shadow: 0px 0px 36px gray;
+    color: aliceblue;
+
+  }
+  .uch {
+    border: 1px solid black;
+    height: 250px;
+    width: 303px;
+    background-color: grey;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 45px;
+    box-shadow: 0px 0px 36px gray;
+    color: aliceblue;
+
+  }
+  .tort {
+    border: 1px solid black;
+    height: 250px;
+    width: 303px;
+    background-color: grey;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 45px;
+    box-shadow: 0px 0px 36px gray;
+    color: aliceblue;
+
+  }
+  .bir , .ikki , .uch , .tort{
+    vertical-align: middle;
+  }
+  img{
+    border-radius: 30px;
+  }
